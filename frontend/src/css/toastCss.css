@@ -1,0 +1,32 @@
+Custom styles for Toast notifications
+.Toastify__toast-container {
+     width: 350px;
+     max-width: 90%;
+ }
+
+ .Toastify__toast {
+     background-color: #4f46e5; /* Indigo */
+     color: #ffffff;
+     font-size: 0.875rem; /* Small text */
+     border-radius: 0.375rem; /* Rounded corners */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ .Toastify__toast--success {
+     background-color: #22c55e; /* Green */
+ }
+
+ .Toastify__toast--error {
+     background-color: #ef4444; /* Red */
+ }
+
+ .Toastify__toast--warning {
+     background-color: #facc15; /* Yellow */
+ }
+ .Toastify__close-button {
+     color: #ffffff;
+ }
+
+.Toastify__progress-bar {
+     background-color: #ffffff; /* White progress bar */
+     }
